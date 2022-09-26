@@ -1,0 +1,39 @@
+.carousel{
+  width:100%;
+  height:480px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-button-prev,
+.swiper-button-next{
+  color:#fff;
+  font-weight: 900;
+}
+
+.swiper-pagination-bullet{
+  background-color:#fff;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color:red;
+}
+
+/* pause,play btn */
+.mySwiper1 i{
+  position:absolute;
+  color:#fff;
+  bottom:10px;
+  left:calc(50% + 2.5rem);
+  z-index:10;
+  cursor: pointer;
+}
+
+.mySwiper1 .fa-pause.on,
+.mySwiper1 .fa-play.on{
+  display:none;
+}
+

@@ -1,0 +1,128 @@
+/* css/menusite.css */
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+/* 폰트 일괄적용 */
+.nav_wrap,
+.menuList h2,
+.menuList ul li a,
+.item div p,
+.bigBtn div h2{
+  font-family: 'Jua',sans-serif;
+  font-weight: bold;
+}
+
+/* nav */
+.nav_section {
+  background-color: #000;
+}
+
+.nav_wrap {
+  width: 1184px;
+  margin: 0 auto;
+  padding: 20px 0;
+  color: #fff;
+}
+
+/* menuList */
+main {
+  background-color: #fff;
+}
+
+.menu_wrap {
+  width: 1184px;
+  margin: 0 auto;
+}
+.menuList{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:20px 0;
+  margin-bottom:1.5rem;
+}
+
+.menuList h2{
+  font-size:2.5rem;
+}
+
+.menuList li{
+  float:left;
+  margin-right: 1.5rem;
+}
+
+.menuList li.on a{
+  color:#e22219;
+  border-bottom: 3px solid #e22219;
+}
+
+.menuList ul li a{
+  font-size:1rem;
+  padding:4px;
+  color:rgba(0, 0, 0, 0.5);
+  transition:all 0.5s;
+}
+
+/* burgur item */
+.event_item{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width:100%;
+  overflow: hidden;
+  margin-left: 20px
+}
+.item{
+  width:50%;
+  margin-bottom:3rem;
+}
+
+.item div{
+  width:100%;
+  margin:0 auto;
+}
+
+.item div img{
+  object-fit: cover;
+  margin-bottom:1rem;
+}
+
+.item div p{
+  font-size:1.75rem;
+}
+
+
+
+/* BigBtn */
+.bigBtn{
+  width:100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom:50px;
+}
+
+.bigBtn div{
+  width:50%;
+  text-align: center;
+  height:100px;
+}
+
+.bigBtn button{
+  width:100%;
+  height:100%;
+  background-color: transparent;
+  border:2px solid black;
+  font-size: 1.5rem;
+}
+
+.event.on button{
+  border-bottom:none;
+}
+.event.on+div>button{
+  border:none;
+  border-bottom:2px solid black;
+  background-color:#f2f2f2;
+  color:silver
+}
+.new.on{
+  border-bottom:none;
+}

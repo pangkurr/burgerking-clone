@@ -1,0 +1,52 @@
+/* 공통 css */
+/* font-family: 'Jua', sans-serif; */
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+.inner{
+  width:100%;
+  max-width: 1440px;
+  height:auto;
+  margin:0 auto;
+}
+
+*{margin:0;padding:0;}
+html{
+  font-size:1rem;
+}
+body{
+  box-sizing: border-box;
+  background-color: #f2ebe6;
+  color:#000;
+  height:100%;
+  padding-top:120px;
+}
+
+li{
+  list-style: none;
+  line-height: 1.5;
+}
+a{
+  text-decoration: none;
+  color:#000;
+}
+
+.clearfix:after{
+  content: '';
+  display:block;
+  clear: both;
+}
+
+.TopBtn{
+  display:none;
+  position: fixed;
+  right:15vw;
+  bottom:30vh;
+  font-size: 2.5rem;
+  color:#fff;
+  padding:5px 12px;
+  border:none;
+  background-color: rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  z-index:100;
+  transition: all 0.5s;
+}
