@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+/* 폰트 일괄 적용 */
+.sns ul li div,
+.store-search .desc h1,
+.store-search .desc button,
+.store-search ul li span,
+.phone-order h2,
+.phone-order div:nth-child(2)
+{
+  font-family: 'Jua',sans-serif;
+}
+
+
+/* section youtube */
+.youtube .inner {
+  height: 605px;
+}
+
+/* section sns */
+.sns {
+  width: 100%;
+}
+
+.sns .inner {
+  height:160px;
+  background-color: #683a2f;
+}
+.sns .sns_wrap{
+  max-width:1184px;
+  height:100%;
+  margin:0 auto;
+}
+.sns ul{
+  width:100%;
+  height:100%;
+  display:table;
+  table-layout: fixed;
+}
+.sns ul li{
+  width:auto;
+  height:auto;
+  display:table-cell;
+  vertical-align: middle;
+  position: relative;
+  left:calc(50% - 37.5%)
+
+}
+.sns ul li img {
+  float:left;
+  margin-right:15px;
+}
+.sns ul li div{
+  padding-top:20px;
+  color:#fff;
+}
+
+.sns ul li div p{
+  font-size:1.5rem;
+  
+}
+.sns ul li div span{
+  color:#000;
+  background: #fff;
+  padding:5px 10px;
+  border-radius: 5px;
+}
+
+/* section app&delivery */
+.store-use {
+  width: 100%;
+  height:100%;
+}
+.store-use .inner{
+  display:flex;
+}
+.store-use .inner div img{
+  height:100%;
+  width:100%;
+}
+.store-use .inner .guide{
+  background-color: #c7a186;
+}
+.store-use .inner .delivery{
+  background-color: #b08972;
+}
+
+/* store-search */
+.store-search {
+  width:100%;
+  height:100%;
+}
+
+.store-search .inner{
+  background-color: #fff;
+  height:480px;
+}
+
+.store-search-wrap{
+  width:1184px;
+  height:100%;
+  margin:0 auto;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.store-search .desc{
+  text-align: center;
+  margin-bottom:30px;
+  font-size: 1.25rem;
+  line-height: 50px;
+  font-weight: bold;
+}
+
+.store-search .desc h1{
+  font-size: 2.75rem;
+  cursor: default;
+}
+
+.store-search .desc button{
+  color:#fff;
+  background-color: #d72300;
+  border:1px solid #d72300;
+  border-radius: 50px;
+  font-size: 1.5rem;
+  padding:8px 20px;
+  cursor: pointer;
+}
+
+.store-search ul li{
+  width:16.333%;
+  float:left;
+  text-align: center;
+  font-weight: bold;
+  border-left: 1px solid #ededed;
+  cursor:default;
+}
+.store-search ul li:first-child{
+  border:none;
+}
+
+.store-search ul li img{
+  width:88px;
+  height:88px;
+  object-fit: cover;
+}
+
+.store-search ul li span{
+  font-size: 20px;
+  color:#d72300;
+}
+
+
+/* section phone-order */
+.phone-order{
+  width:100%;
+  height: 100%;
+}
+
+.phone-order .inner{
+  background:url('../img/bg-fire-web.png') no-repeat;
+}
+
+.phone-order .phone-order-wrap{
+  width:1184px;
+  height: 200px;
+  margin:0 auto;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.phone-order div{
+  color:#fff;
+}
+
+.phone-order h2{
+  font-size: 2.5rem;
+}
+
+.phone-order p{
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.phone-order div:nth-child(2){
+  font-size: 3.5rem;
+}

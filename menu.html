@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>버거킹</title>
+    <!-- favicon 연결 -->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon" />
+    <!-- font-awesome 연결 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- swiper css 연결 -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- css연결 -->
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/header.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/menusite.css" />
+    <!-- isotope 연결 -->
+    <script src="assets/isotope.pkgd.min.js"></script>
+
+    <!-- script 연결 -->
+    <script src="js/gridShow.js"></script>
+  </head>
+  <body>
+    <!-- navigation -->
+    <header>
+      <div class="header_fix">
+        <div class="header_wrap">
+          <a href="index.html"
+            ><img src="img/logo.png" alt="burgerking logo"
+          /></a>
+          <ul class="header_mainmenu clearfix">
+            <li>
+              <span>메뉴소개</span> ▼
+              <ul class="header_submenu hide choice">
+                <li><a href="*">전체</a></li>
+                <li><a href=".special">스페셜&할인팩</a></li>
+                <li><a href=".new">신제품(NEW)</a></li>
+                <li><a href=".premium">프리미엄</a></li>
+                <li><a href=".waper">와퍼&주니어</a></li>
+                <li><a href=".chicken">치킨&슈림프버거</a></li>
+                <li><a href=".allDay">올데이킹</a></li>
+                <li><a href=".side">사이드</a></li>
+                <li><a href=".desert">음료&디저트</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>매장소개</span> ▼
+              <ul class="header_submenu hide">
+                <li><a href="#">매장찾기</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>이벤트</span> ▼
+              <ul class="header_submenu hide">
+                <li><a href="#">이벤트</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>브랜드스토리</span> ▼
+              <ul class="header_submenu hide">
+                <li><a href="#">BRAND</a></li>
+                <li><a href="#">WHOPPER</a></li>
+                <li><a href="#">COMM.</a></li>
+              </ul>
+            </li>
+          </ul>
+          <button class="btn_delivery">딜리버리 주문</button>
+        </div>
+      </div>
+    </header>
+
+    <!-- nav bar -->
+    <section class="nav_section">
+      <div class="nav_wrap">
+        <nav>HOME > 메뉴소개</nav>
+      </div>
+    </section>
+
+    <main>
+      <div class="menu_wrap">
+        <div class="menuList">
+          <h2>메뉴소개</h2>
+          <!-- 필터 -->
+          <ul class="clearfix">
+            <li class="on"><a href="*">전체</a></li>
+            <li><a href=".special">스페셜&할인팩</a></li>
+            <li><a href=".new">신제품(NEW)</a></li>
+            <li><a href=".premium">프리미엄</a></li>
+            <li><a href=".waper">와퍼&주니어</a></li>
+            <li><a href=".chicken">치킨&슈림프버거</a></li>
+            <li><a href=".allDay">올데이킹</a></li>
+            <li><a href=".side">사이드</a></li>
+            <li><a href=".desert">음료&디저트</a></li>
+          </ul>
+        </div>
+
+        <!-- 버거 목록들 -->
+        <div class="burger_item clearfix">
+          <!-- special -->
+          <div class="item special">
+            <div>
+              <img src="img/burgerSrc/special-1.png" alt="골든치즈렐라 팩1" />
+              <p>골든치즈렐라 팩1</p>
+            </div>
+          </div>
+          <div class="item special">
+            <div>
+              <img src="img/burgerSrc/special-2.png" alt="골든치즈렐라 팩2" />
+              <p>골든치즈렐라 팩2</p>
+            </div>
+          </div>
+          <div class="item special">
+            <div>
+              <img src="img/burgerSrc/special-3.png" alt="골든치즈렐라 팩3" />
+              <p>골든치즈렐라 팩3</p>
+            </div>
+          </div>
+          <div class="item special">
+            <div>
+              <img src="img/burgerSrc/special-4.png" alt="골든치즈렐라 팩4" />
+              <p>골든치즈렐라 팩4</p>
+            </div>
+          </div>
+
+          <!-- new -->
+          <div class="item new">
+            <div>
+              <img src="img/burgerSrc/new-1.png" alt="골든치즈렐라와퍼" />
+              <p>골든치즈렐라와퍼</p>
+            </div>
+          </div>
+          <div class="item new">
+            <div>
+              <img src="img/burgerSrc/new-2.png" alt="골든치즈렐라치킨버거" />
+              <p>골든치즈렐라치킨버거</p>
+            </div>
+          </div>
+          <div class="item new">
+            <div>
+              <img src="img/burgerSrc/new-3.png" alt="타바스코몬스터" />
+              <p>타바스코몬스터</p>
+            </div>
+          </div>
+          <div class="item new">
+            <div>
+              <img src="img/burgerSrc/new-4.png" alt="타바스코더블비프" />
+              <p>타바스코더블비프</p>
+            </div>
+          </div>
+          <div class="item new">
+            <div>
+              <img src="img/burgerSrc/new-5.png" alt="타바스코슈림프" />
+              <p>타바스코슈림프</p>
+            </div>
+          </div>
+
+          <!-- premium -->
+          <div class="item premium">
+            <div>
+              <img
+                src="img/burgerSrc/premium-1.png"
+                alt="기네스콰트로치즈와퍼"
+              />
+              <p>기네스콰트로치즈와퍼</p>
+            </div>
+          </div>
+          <div class="item premium">
+            <div>
+              <img src="img/burgerSrc/premium-2.png" alt="기네스머쉬룸와퍼" />
+              <p>기네스머쉬룸와퍼</p>
+            </div>
+          </div>
+          <div class="item premium">
+            <div>
+              <img src="img/burgerSrc/premium-3.png" alt="기네스와퍼" />
+              <p>기네스와퍼</p>
+            </div>
+          </div>
+          <div class="item premium">
+            <div>
+              <img src="img/burgerSrc/premium-4.png" alt="몬스터와퍼" />
+              <p>몬스터와퍼</p>
+            </div>
+          </div>
+          <div class="item premium">
+            <div>
+              <img src="img/burgerSrc/premium-5.png" alt="몬스터X" />
+              <p>몬스터X</p>
+            </div>
+          </div>
+          <div class="item premium">
+            <div>
+              <img src="img/burgerSrc/premium-6.png" alt="콰트로치즈와퍼" />
+              <p>콰트로치즈와퍼</p>
+            </div>
+          </div>
+
+          <!-- waperJunier -->
+          <div class="item waper">
+            <div>
+              <img src="img/burgerSrc/waperJunier-1.png" alt="와퍼" />
+              <p>와퍼</p>
+            </div>
+          </div>
+          <div class="item waper">
+            <div>
+              <img src="img/burgerSrc/waperJunier-2.png" alt="치즈와퍼" />
+              <p>치즈와퍼</p>
+            </div>
+          </div>
+          <div class="item waper">
+            <div>
+              <img src="img/burgerSrc/waperJunier-3.png" alt="불고기와퍼" />
+              <p>불고기와퍼</p>
+            </div>
+          </div>
+          <div class="item waper">
+            <div>
+              <img src="img/burgerSrc/waperJunier-4.png" alt="스태커2와퍼" />
+              <p>스태커2와퍼</p>
+            </div>
+          </div>
+          <div class="item waper">
+            <div>
+              <img src="img/burgerSrc/waperJunier-5.png" alt="스태커3와퍼" />
+              <p>스태커3와퍼</p>
+            </div>
+          </div>
+
+          <!-- chicken&shrimp -->
+          <div class="item chicken">
+            <div>
+              <img
+                src="img/burgerSrc/chickenShirimp-1.png"
+                alt="비프&슈림프버거"
+              />
+              <p>슈림프버거</p>
+            </div>
+          </div>
+          <div class="item chicken">
+            <div>
+              <img
+                src="img/burgerSrc/chickenShirimp-2.png"
+                alt="통새우슈림프버거"
+              />
+              <p>통새우슈림프버거</p>
+            </div>
+          </div>
+          <div class="item chicken">
+            <div>
+              <img
+                src="img/burgerSrc/chickenShirimp-3.png"
+                alt="잔망루피슈림프버거"
+              />
+              <p>잔망루피슈림프버거</p>
+            </div>
+          </div>
+
+          <!-- allDayKing -->
+          <div class="item allDay">
+            <div>
+              <img
+                src="img/burgerSrc/allDayKing-1.png"
+                alt="콰트로치즈와퍼주니어 세트"
+              />
+              <p>콰트로치즈와퍼주니어 세트</p>
+            </div>
+          </div>
+          <div class="item allDay">
+            <div>
+              <img
+                src="img/burgerSrc/allDayKing-2.png"
+                alt="불고기롱치킨버거 세트"
+              />
+              <p>불고기롱치킨버거 세트</p>
+            </div>
+          </div>
+          <div class="item allDay">
+            <div>
+              <img src="img/burgerSrc/allDayKing-3.png" alt="치즈버거" />
+              <p>치즈버거</p>
+            </div>
+          </div>
+
+          <!-- 사이드 -->
+          <div class="item side">
+            <div>
+              <img
+                src="img/burgerSrc/side-1.png"
+                alt="앵그리 너겟킹 8조각(행사)"
+              />
+              <p>앵그리 너겟킹 8조각(행사)</p>
+            </div>
+          </div>
+          <div class="item side">
+            <div>
+              <img src="img/burgerSrc/side-2.png" alt="앵그리 너겟킹" />
+              <p>앵그리 너겟킹</p>
+            </div>
+          </div>
+
+          <!-- desert -->
+          <div class="item desert">
+            <div>
+              <img src="img/burgerSrc/desert-1.png" alt="팝핑캔디 선데" />
+              <p>팝핑캔디 선데</p>
+            </div>
+          </div>
+          <div class="item desert">
+            <div>
+              <img src="img/burgerSrc/desert-2.png" alt="선데" />
+              <p>선데</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="footer_wrap">
+        <!-- footer top -->
+        <div class="footer_top">
+          <ul class="footer_mainmenu clearfix">
+            <li>
+              <span>메뉴</span>
+              <ul class="footer_submenu choice">
+                <li><a href="*">전체</a></li>
+                <li><a href=".special">스페셜&할인팩</a></li>
+                <li><a href=".new">신제품(NEW)</a></li>
+                <li><a href=".premium">프리미엄</a></li>
+                <li><a href=".waper">와퍼&주니어</a></li>
+                <li><a href=".chicken">치킨&슈림프버거</a></li>
+                <li><a href=".allDay">올데이킹</a></li>
+                <li><a href=".side">사이드</a></li>
+                <li><a href=".desert">음료&디저트</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>매장</span>
+              <ul class="footer_submenu">
+                <li><a href="#">매장찾기</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>이벤트</span>
+              <ul class="footer_submenu">
+                <li><a href="#">이벤트</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>브랜드 스토리</span>
+              <ul class="footer_submenu">
+                <li><a href="#">BRAND</a></li>
+                <li><a href="#">WHOPPER</a></li>
+                <li><a href="#">COMM.</a></li>
+              </ul>
+            </li>
+            <li>
+              <span>고객센터</span>
+              <ul class="footer_submenu">
+                <li><a href="#">공지사항</a></li>
+                <li><a href="#">버거킹앱이용안내</a></li>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">문의</a></li>
+                <li><a href="#">가맹점모집</a></li>
+                <li><a href="#">인재채용</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+
+        <hr />
+
+        <!-- footer bottom -->
+        <div class="footer_bottom">
+          <div>
+            <p class="mb_1">BURGER KING</p>
+            <p>
+              서울 종로구 삼봉로 71 G 타워 2층 주식회사 비케이알 | 전화주문
+              1234-1234
+            </p>
+            <!-- 사업자 등록번호 모달창 -->
+            <p>
+              <strong>사업자 등록번호 100-11-12345</strong> | (주)BKR 대표이사
+              윤정효
+            </p>
+            <p>Copyright 윤정효 All right Reserved</p>
+            <ul class="mb_2">
+              <li>
+                <a href="#"
+                  ><span><i class="fa fab fa-facebook-square"></i></span
+                ></a>
+              </li>
+              <li>
+                <a href="#"
+                  ><span><i class="fa fab fa-instagram"></i></span
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <div>
+            <ul class="line">
+              <li><a href="#">이용약관</a></li>
+              <li><a href="#">개인정보취급방침</a></li>
+              <li><a href="#">법적고지</a></li>
+            </ul>
+            <div class="footer_btn">
+              <button>인재채용</button>
+              <button>가맹점모집</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Top 버튼 -->
+    <button class="TopBtn"><i class="fa fas fa-angle-up"></i></button>
+
+    <!-- 일반 js 연결 -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
